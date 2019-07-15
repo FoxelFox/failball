@@ -12,6 +12,6 @@ public class hitcounterupdate : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		hitcounter.guiText.text = guiText.text;
+		hitcounter.GetComponent<GUIText>().text = GetComponent<GUIText>().text;
 	}
 }
